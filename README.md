@@ -50,7 +50,8 @@ In some parts of the world, getting a good solid connection to Sync is difficult
 
 #### Tip:<br>
 The SD card is overflowing with software; more than 21 GByte! With a 32 GB card, you don't have enough space to work decently.<br>
-Therefore, flash the image on an SD card of 64 or more and use GParted (`$ sudo apt-get install gparted`) to enlarge the partition.
+Therefore, flash the image on an SD card of 64 or more and use GParted (`$ sudo apt-get install gparted`) to enlarge the partition.<br>
+Or use the method of Doeke Wartena: https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/125.
 
 ------------
 
