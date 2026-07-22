@@ -37,7 +37,7 @@
 ## Installation.
 
 - Get a 32 GB (minimal) SD card to hold the image. 
-- Download the image `JetsonNanoUb20_3b.img.xz` (**8.7 GByte!**) from our [Sync](https://ln5.sync.com/dl/403a73c60/bqppm39m-mh4qippt-u5mhyyfi-nnma8c4t). 
+- Download the image `JetsonNanoUb20_3b.img.xz` (**8.7 GByte!**) from our [server](https://storage.qengineering.eu/JetsonNanoUb20_3b.img.xz). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Given [issue #101](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/101#) the Imager works sometimes better than the balenaEtcher.
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/17#) only flash the xz directly, not an unzipped img image.
