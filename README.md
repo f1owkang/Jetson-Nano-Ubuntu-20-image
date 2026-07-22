@@ -60,19 +60,19 @@ Or use the method of Doeke Wartena: https://github.com/Qengineering/Jetson-Nano-
 Due to the large image (9.3 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
 That's why we split the file into smaller chunks. These are more manageable than one huge download.<br/>
 If you prefer this partial download over one large one, download the following 14 files (700 MB each) and place them in one folder.</br>
-- [JetsonNanoUb20_3b.img.xz.001](https://ln5.sync.com/dl/26ab88540/2mgt4wai-ej6kx28m-hu2jymnk-7zfe65d8)
-- [JetsonNanoUb20_3b.img.xz.002](https://ln5.sync.com/dl/768c93180/cq7zriji-dnhe3thr-upgnyyfr-zerrba9x)
-- [JetsonNanoUb20_3b.img.xz.003](https://ln5.sync.com/dl/5d3da43d0/wy34gd75-689eh3hq-asg8w89n-ti5c3ky5)
-- [JetsonNanoUb20_3b.img.xz.004](https://ln5.sync.com/dl/0ef819060/qsxkb62n-ufx8wfsw-tujifiw4-38zt2xzh)
-- [JetsonNanoUb20_3b.img.xz.005](https://ln5.sync.com/dl/d753ac7f0/fhdhynne-86mgaeq5-6q2bs3qs-z3tkyzt4)
-- [JetsonNanoUb20_3b.img.xz.006](https://ln5.sync.com/dl/1b5b19800/z46pgc2q-quvpm5hy-yj2n4x4x-u34mwdgm)
-- [JetsonNanoUb20_3b.img.xz.007](https://ln5.sync.com/dl/f76c905b0/he8psg2g-293hjh5u-kgpyjmr7-fui227qu)
-- [JetsonNanoUb20_3b.img.xz.008](https://ln5.sync.com/dl/97cada030/5ixwp92p-zwgj6hkj-t6hfe3fv-pbcxyd28)
-- [JetsonNanoUb20_3b.img.xz.009](https://ln5.sync.com/dl/f3f531a70/mgqinzz2-9ys5rtbg-z7t89un7-8i7zm65d)
-- [JetsonNanoUb20_3b.img.xz.010](https://ln5.sync.com/dl/db8b60ec0/a4hakcrw-78g9i65r-h675jq7t-xuhv5ft4)
-- [JetsonNanoUb20_3b.img.xz.011](https://ln5.sync.com/dl/6861a0cd0/9xyekbt6-ipsrep5w-9rcuwk8g-hggp2kx3)
-- [JetsonNanoUb20_3b.img.xz.012](https://ln5.sync.com/dl/3e521c4a0/c5meen53-gnkupyzv-ixp57fmc-tu4n6bej)
-- [JetsonNanoUb20_3b.img.xz.013](https://ln5.sync.com/dl/72f4dae70/av2f5bnt-z4mynsua-tu8us97q-gntzgrks)
+- [JetsonNanoUb20_3b.img.xz.001](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.001)
+- [JetsonNanoUb20_3b.img.xz.002](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.002)
+- [JetsonNanoUb20_3b.img.xz.003](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.003)
+- [JetsonNanoUb20_3b.img.xz.004](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.004)
+- [JetsonNanoUb20_3b.img.xz.005](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.005)
+- [JetsonNanoUb20_3b.img.xz.006](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.006)
+- [JetsonNanoUb20_3b.img.xz.007](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.007)
+- [JetsonNanoUb20_3b.img.xz.008](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.008)
+- [JetsonNanoUb20_3b.img.xz.009](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.009)
+- [JetsonNanoUb20_3b.img.xz.010](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.010)
+- [JetsonNanoUb20_3b.img.xz.011](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.011)
+- [JetsonNanoUb20_3b.img.xz.012](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.012)
+- [JetsonNanoUb20_3b.img.xz.013](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.013)
 
 Once you have all the files run
 ```
