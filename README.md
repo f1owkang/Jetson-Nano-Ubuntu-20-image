@@ -9,7 +9,7 @@
 - Add WiFi support (https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/28).
 - Reduce xz archive.
 ### Update 9-6-2023. 
-- Added a new spilt image.
+- Added a new split image.
 ### Update 7-15-2023. 
 - Refresh Ubuntu 20.04.
 - Update OpenCV (**4.8.0**)
@@ -46,7 +46,7 @@
 - JetsonNanoUb20_3b.img.xz md5sum: D738F1FE20088A1BDBD10E2358B512F7
 
 ### GDrive.
-In some parts of the world, getting a good solid connection to Sync is difficult. That is why we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and use Google Drive only if necessary.
+In some parts of the world, getting a good solid connection to  is difficult. That is why we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and use Google Drive only if necessary.
 
 #### Tip:<br>
 The SD card is overflowing with software; more than 21 GByte! With a 32 GB card, you don't have enough space to work decently.<br>
@@ -74,13 +74,13 @@ If you prefer this partial download over one large one, download the following 1
 - [JetsonNanoUb20_3b.img.xz.012](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.012)
 - [JetsonNanoUb20_3b.img.xz.013](https://storage.qengineering.eu/Nano/JetsonNanoUb20_3b.img.xz.013)
 
-Once you have all the files run
+Once you have all the files, run
 ```
 7z x JetsonNanoUb20_3b.img.xz.001
 ```
 7Z will start extracting the first file (`*.001`) and automatically the next files in order.</br>
-You will end up with `JetsonNanoUb20_3b.img.xz`, the original image which you now can flash on an SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
-If you get the error `'7z' is not recognized as an internal or external command, operable program or batch file.` please give the full path to 7z. For instance,
+You will end up with `JetsonNanoUb20_3b.img.xz`, the original image, which you now can flash on an SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
+If you get the error `'7z' is not recognised as an internal or external command, operable program or batch file.` please give the full path to 7z. For instance,
 ```
 "C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_3b.img.xz.001
 ```
@@ -109,9 +109,9 @@ As you can see, [Kalana Ratnayake](https://github.com/KalanaRatnayake), a PhD st
 
 ## Warnings.
 
-* **Do not install Chromium** as it will interfere with the Snap installation. Use the preinstalled Morzilla Firefox.
+* **Do not install Chromium** as it will interfere with the Snap installation. Use the preinstalled Mozilla Firefox.
 * **Corrupted lavapipe** You may encounter a warning during booting that the lavapipe is broken.<br/>
-The solve the issue remove the /usr/share/vulkan/icd.d folder `$ sudo rm -rf /usr/share/vulkan/icd.d`<br/>
+To solve the issue, remove the /usr/share/vulkan/icd.d folder `$ sudo rm -rf /usr/share/vulkan/icd.d`<br/>
 See issue [#173](https://github.com/rbonghi/jetson_stats/issues/173).
 
 
@@ -135,7 +135,7 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 
 ## SSD 
 
-You can use an external SSD USB drive holding your Ubuntu 20.04 OS and other software.
+You can use an external USB SSD drive holding your Ubuntu 20.04 OS and other software.
 Please follow the steps given at [issue 32](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/32).
 
 ------------
@@ -152,7 +152,7 @@ Clicking on the links below will direct you to our installation guide.<br>
 - [TeamViewer aarch64](https://www.teamviewer.com/en/download/linux/) 15.24.5
 - [Jtop](https://github.com/rbonghi/jetson_stats) 4.2.1
 
-Tensorflow 2.5 and above, just like PyTorch 2.0, requires CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software.
+TensorFlow 2.5 and above, just like PyTorch 2.0, requires CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software.
 
 ![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/466e8a7e-b610-41c9-bfdb-5291465f24e4)<br>
 ![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/f7931af3-d4c2-4ca0-bf00-d09e2c18e313)<br>
